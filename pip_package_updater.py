@@ -12,7 +12,7 @@ install_count = 0
 output_list = output.split('\n')
 
 for pkg_name in output_list:
-    if pkg_name == 'Package' or '-----' in pkg_name or  len(pkg_name) == 0:
+    if pkg_name == 'Package' or '-----' in pkg_name or len(pkg_name) == 0:
         output_list.remove(pkg_name)
 
     else:
