@@ -1,2 +1,2 @@
 # pip-package-update
-pip package updater script
+A script to update all pip packages.
